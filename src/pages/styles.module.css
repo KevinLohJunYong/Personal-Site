@@ -16,9 +16,11 @@
   height: 120px;
   width: 120px;
 }
-.me {
+.center {
   text-align: center;
-  font-size: medium; 
+}
+.description {
+  font-size: larger;
 }
 .photo {
   height: 10px;
