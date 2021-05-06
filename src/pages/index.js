@@ -7,6 +7,7 @@ import styles from './styles.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import profilePic from '@site/static/img/profile_pic.png';
 import Typist from "react-typist";
+import {Grid, Typography} from "@material-ui/core";
 
 export default function Home() {
   const [count, setCount] = useState(1);
@@ -15,6 +16,7 @@ export default function Home() {
     console.log("Count: " + count);
     setCount(1);
   }, [count]);
+
   return (
      <Layout title="Home">
        <div 
@@ -22,10 +24,12 @@ export default function Home() {
          <img className={styles.profilePic} src={profilePic} />
          <h1> Kevin Loh Jun Yong </h1>
          {count ? (
-        <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)} className={styles.description}>
+        <Typist className={styles.description} avgTypingDelay={50} onTypingDone={() => setCount(0)} className={styles.description}>
           <span> I'm a CS undergrad at NUS! </span>
           <Typist.Backspace count={22} delay={500} />
-          <span> software engineer </span>
+          <span> software engineer! </span>
+          <Typist.Backspace count={24} delay={500} />
+          <span> enjoy programming! </span>
         </Typist>
       ) : (
         ""
