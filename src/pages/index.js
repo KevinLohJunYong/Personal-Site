@@ -8,7 +8,35 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import profilePic from '@site/static/img/profile_pic.png';
 import Typist from "react-typist";
 import {Grid, Typography} from "@material-ui/core";
-
+import Particles from "react-particles-js";
+import "./index.css";
+const particles = {
+    number: {
+        value: window.innerWidth < 600 ? 50 : 100,
+    },
+    size: {
+        value: 3,
+    }
+}
+const particlesConfig = {
+  particles: {
+      number: {
+          value: window.innerWidth < 600 ? 50 : 100,
+      },
+      size: {
+          value: 3,
+      }
+  },
+  interactivity: {
+      detect_on:"window",
+      events: {
+          onhover: {
+              enable: true,
+              mode: "repulse"
+          }
+      }
+  }
+}
 export default function Home() {
   const [count, setCount] = useState(1);
 
@@ -22,7 +50,7 @@ export default function Home() {
        <div 
        className={styles.center}>
          <img className={styles.profilePic} src={profilePic} />
-         <h1> Kevin Loh Jun Yong </h1>
+         <h1> Kevin Loh Jun Yong </h1>     
          {count ? (
         <Typist className={styles.description} avgTypingDelay={50} onTypingDone={() => setCount(0)} className={styles.description}>
           <span> I'm a CS undergrad at NUS! </span>
@@ -35,6 +63,7 @@ export default function Home() {
         ""
       )}
        </div>
+       <Particles className={particles} params={particlesConfig} />
      </Layout>
   );
 }
