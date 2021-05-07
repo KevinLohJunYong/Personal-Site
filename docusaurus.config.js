@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Kevin',
+      title: 'KevinLohJunYong',
       items: [
         {
           type: 'doc',

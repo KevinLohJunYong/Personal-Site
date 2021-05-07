@@ -16,7 +16,8 @@ const particles = {
     },
     size: {
         value: 3,
-    }
+    },
+    
 }
 const particlesConfig = {
   particles: {
@@ -25,7 +26,7 @@ const particlesConfig = {
       },
       size: {
           value: 3,
-      }
+      },
   },
   interactivity: {
       detect_on:"window",
@@ -50,9 +51,9 @@ export default function Home() {
        <div 
        className={styles.center}>
          <img className={styles.profilePic} src={profilePic} />
-         <h1> Kevin Loh Jun Yong </h1>     
+         <h1 className={styles.words}> Hello, I'm Kevin and </h1>     
          {count ? (
-        <Typist className={styles.description} avgTypingDelay={50} onTypingDone={() => setCount(0)} className={styles.description}>
+        <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
           <span> I'm a CS undergrad at NUS! </span>
           <Typist.Backspace count={22} delay={500} />
           <span> software engineer! </span>
@@ -62,8 +63,8 @@ export default function Home() {
       ) : (
         ""
       )}
+        <Particles className={styles.particles} params={particlesConfig} />
        </div>
-       <Particles className={particles} params={particlesConfig} />
      </Layout>
   );
 }
