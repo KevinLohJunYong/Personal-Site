@@ -51,14 +51,14 @@ export default function Home() {
        <div 
        className={styles.center}>
          <img className={styles.profilePic} src={profilePic} />
-         <h1 className={styles.words}> Hello, I'm Kevin and </h1>     
+         <h1 className={styles.header}> Hello, I'm Kevin and </h1>     
          {count ? (
         <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
           <span> I'm a CS undergrad at NUS! </span>
           <Typist.Backspace count={22} delay={500} />
           <span> software engineer! </span>
           <Typist.Backspace count={24} delay={500} />
-          <span> enjoy programming! </span>
+          <span> love programming! </span>
         </Typist>
       ) : (
         ""
