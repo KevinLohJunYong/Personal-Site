@@ -21,6 +21,12 @@ module.exports = {
           label: 'Contact',
           position: 'right',
         },
+        {
+          href: "https://github.com/KevinLohJunYong", 
+          target: "_blank",
+          label: 'Github',
+          position: 'right',
+        },
       ],
     },
   },
