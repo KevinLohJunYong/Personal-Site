@@ -41,7 +41,10 @@
   margin-top: 320px;
   margin-left: 600px;
 }
-
+.vl {
+  border-left: 100px solid white;
+  height: 1000px;
+}
 .buttons {
   display: flex;
   align-items: center;

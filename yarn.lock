@@ -1520,6 +1520,11 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@juggle/resize-observer@^3.3.0":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
+  integrity sha512-zMM9Ds+SawiUkakS7y94Ymqx+S0ORzpG3frZirN3l+UlXUmSUR7hF4wxCVqW+ei94JzV5kt0uXBcoOEAuiydrw==
+
 "@material-ui/core@^4.11.4":
   version "4.11.4"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.11.4.tgz#4fb9fe5dec5dcf780b687e3a40cff78b2b9640a4"
@@ -1651,6 +1656,34 @@
   version "1.0.0-next.12"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.12.tgz#431ec342a7195622f86688bbda82e3166ce8cb28"
   integrity sha512-6RglhutqrGFMO1MNUXp95RBuYIuc8wTnMAV5MUhLmjTOy78ncwOw7RgeQ/HeymkKXRhZd0s2DNrM1rL7unk3MQ==
+
+"@react-md/divider@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@react-md/divider/-/divider-2.8.2.tgz#f9d667765646f96988181523007a97569a134ca0"
+  integrity sha512-/rIu98E06V/Y0yJCCRzhT47E2uB3Lilgk13wb6uXTH08qVQbH49Ux09tPxF9i08XEq7y23L/LfVt02cjl5h7zw==
+  dependencies:
+    "@react-md/theme" "^2.8.2"
+    "@react-md/utils" "^2.8.2"
+    classnames "^2.3.1"
+  optionalDependencies:
+    prop-types ">= 15.6"
+
+"@react-md/theme@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@react-md/theme/-/theme-2.8.2.tgz#3fe4902f18d5b4b38c4bf6acb677986cc7bed4f2"
+  integrity sha512-UxZNrpKToddbyBX1n4s1iM5hs1t59g199FBYKzyPtPjX2kiqyex2Lnvuez1azxixoj0yJYf/jnmx0CDxQO+ApA==
+  dependencies:
+    "@react-md/utils" "^2.8.2"
+  optionalDependencies:
+    prop-types ">= 15.6"
+
+"@react-md/utils@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@react-md/utils/-/utils-2.8.2.tgz#d694357ed183d9c71eb9e06ff1ca573ccc3a60b7"
+  integrity sha512-El1MopkJH8B3dZW1NJzon6xmIIvKNyodnzOBnva5ODRl16FZ8+Ad0ElQW/+38ZViqhn1LEaQahGujAGI3nnsLA==
+  dependencies:
+    "@juggle/resize-observer" "^3.3.0"
+    classnames "^2.3.1"
 
 "@sideway/address@^4.1.0":
   version "4.1.1"
@@ -2756,6 +2789,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -6864,7 +6902,7 @@ prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
+"prop-types@>= 15.6", prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
