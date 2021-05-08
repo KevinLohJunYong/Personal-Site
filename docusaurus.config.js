@@ -15,10 +15,10 @@ module.exports = {
       items: [
         { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'skills', label: 'Skills', position: 'left' },
-        { to: 'contact', label: 'Contact', position: 'right' },
         {
-          href: 'https://github.com/kevinlohjunyong',
-          label: 'GitHub',
+          href: "mailto:e0439232@u.nus.edu", 
+          target: "_blank",
+          label: 'Contact',
           position: 'right',
         },
       ],

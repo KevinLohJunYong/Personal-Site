@@ -10,7 +10,9 @@ import Typist from "react-typist";
 import {Grid, Typography} from "@material-ui/core";
 import Particles from "react-particles-js";
 import "./index.css";
+
 const particles = {
+ 
     number: {
         value: window.innerWidth < 600 ? 50 : 100,
     },
@@ -59,6 +61,8 @@ export default function Home() {
           <span> software engineer! </span>
           <Typist.Backspace count={24} delay={500} />
           <span> love programming! </span>
+          <Typist.Backspace count={18} delay={500} />
+          <span> built this website using ReactJS! </span>
         </Typist>
       ) : (
         ""
