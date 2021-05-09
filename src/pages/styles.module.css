@@ -16,6 +16,8 @@
   height: 120px;
   width: 120px;
   position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .particles {
    z-index: -1;
@@ -30,7 +32,8 @@
   color: white;
   position: fixed;
   margin-top: 260px;
-  margin-left: 650px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .words {
   font-size: 200%;
@@ -39,7 +42,8 @@
   text-align: center;
   position: fixed;
   margin-top: 320px;
-  margin-left: 600px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .buttons {
@@ -47,3 +51,17 @@
   align-items: center;
   justify-content: center;
 }
+.innerBox {
+  padding: 20px;
+  border-radius: 20px 0px 0px 20px;
+  background-color: blue;
+  width:50%;
+}
+.outerBox {
+   border-radius: 20px;
+   margin-top: 10px;
+   color: white;
+   background-color: yellow;
+   font-size: larger;
+}
+
