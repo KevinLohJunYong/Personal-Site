@@ -50,3 +50,16 @@
   align-items: center;
   justify-content: center;
 }
+.innerBox {
+  padding: 20px;
+  border-radius: 20px 0px 0px 20px;
+  background-color: blue;
+  width:50%;
+}
+.outerBox {
+   border-radius: 20px;
+   margin-top: 10px;
+   color: white;
+   background-color: yellow;
+   font-size: larger;
+}
