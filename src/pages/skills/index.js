@@ -7,27 +7,27 @@ import { Divider } from "@react-md/divider";
 
 export default function Skills() {
     return (
-        <div style={{marginLeft: '300px', marginTop: '250px', width: '50%' }}>
-            <h1 className={styles.words} style={{marginTop:'-60px',marginLeft:'300px'}}>
+        <div style={{marginTop: '250px',width: '50%' }}>
+            <h1 className={styles.words} style={{marginTop:'-60px'}}>
                 Skills
             </h1>
-            <Box style={{'borderRadius':'20px'}} color="white" bgcolor="yellow" fontSize="larger">
-                   <Box p={2} style={{'borderRadius':'20px 0px 0px 20px'}} bgcolor="blue" width="50%">
+            <Box className={styles.outerBox}>
+                   <Box className={styles.innerBox}>
                       Languages
                    </Box>
             </Box>
-            <Box style={{'borderRadius':'20px',marginTop:'10px'}} color="white" bgcolor="yellow" fontSize="larger">
-                   <Box p={2} style={{'borderRadius':'20px 0px 0px 20px'}} bgcolor="blue" width="50%">
+            <Box className={styles.outerBox}>
+                   <Box className={styles.innerBox}>
                       FrontEnd
                    </Box>
             </Box>
-            <Box style={{'borderRadius':'20px',marginTop:'10px'}} color="white" bgcolor="yellow" fontSize="larger">
-                   <Box p={2} style={{'borderRadius':'20px 0px 0px 20px'}} bgcolor="blue" width="50%">
+            <Box className={styles.outerBox}>
+                   <Box className={styles.innerBox}>
                       BackEnd
                    </Box>
             </Box>
-            <Box style={{'borderRadius':'20px',marginTop:'10px'}} color="white" bgcolor="yellow" fontSize="larger">
-                   <Box p={2} style={{'borderRadius':'20px 0px 0px 20px'}} bgcolor="blue" width="50%">
+            <Box className={styles.outerBox}>
+                   <Box className={styles.innerBox}>
                       DataBase
                    </Box>
             </Box>
