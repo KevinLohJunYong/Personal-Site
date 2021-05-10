@@ -45,7 +45,10 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-
+.vl {
+  border-left: 100px solid white;
+  height: 1000px;
+}
 .buttons {
   display: flex;
   align-items: center;
@@ -54,14 +57,32 @@
 .innerBox {
   padding: 20px;
   border-radius: 20px 0px 0px 20px;
-  background-color: blue;
-  width:50%;
+  background-color: red;
+  width: 22%;
+  font-size: x-large;
 }
 .outerBox {
+   display: flex;
    border-radius: 20px;
    margin-top: 10px;
+   margin-left: 300px;
    color: white;
-   background-color: yellow;
+   background-color: white;
    font-size: larger;
+   width: 60%;
+   height: 100px;
 }
-
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}

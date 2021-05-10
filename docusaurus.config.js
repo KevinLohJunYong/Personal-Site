@@ -13,8 +13,8 @@ module.exports = {
     navbar: {
       title: 'KevinLohJunYong',
       items: [
-        { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'skills', label: 'Skills', position: 'left' },
+        { to: 'projects', label: 'Projects', position: 'left' },
         {
           href: "mailto:e0439232@u.nus.edu", 
           target: "_blank",
