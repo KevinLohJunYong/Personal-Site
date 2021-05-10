@@ -17,34 +17,34 @@ export default function Skills() {
     return (
         <div style={{marginTop:"100px"}}>
         <h1 style={{color:"white",textAlign:"center"}}>
-            Skills
+            My Programming Skills
         </h1>
         <Box className={styles.outerBox}>
             <Box className={styles.innerBox}>
                 Languages
             </Box>
-            <img src={pythonLogo} alt="python" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
-            <img src={cPlusPlusLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
-            <img src={javaLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
-            <img src={JSLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
+            <img src={pythonLogo} alt="python" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={cPlusPlusLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={javaLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={JSLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
                 FrontEnd
             </Box>
-            <img src={reactJSLogo} alt="reactJS" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
+            <img src={reactJSLogo} alt="reactJS" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
                 BackEnd
             </Box>
-            <img src={railsLogo} alt="rails" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
+            <img src={railsLogo} alt="rails" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
                 DataBases
             </Box>
-            <img src={postGreSqlLogo} alt="psql" style={{width: "auto", maxWidth:"100px", maxHeight:"90%"}} />
+            <img src={postGreSqlLogo} alt="psql" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         </div>
     );
