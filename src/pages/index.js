@@ -11,16 +11,6 @@ import {Grid, Typography} from "@material-ui/core";
 import Particles from "react-particles-js";
 import "./index.css";
 
-const particles = {
- 
-    number: {
-        value: window.innerWidth < 600 ? 50 : 100,
-    },
-    size: {
-        value: 3,
-    },
-    
-}
 const particlesConfig = {
   particles: {
       number: {
