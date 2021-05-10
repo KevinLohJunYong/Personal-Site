@@ -3,8 +3,6 @@ import Layout from '@theme/Layout';
 import { Grid } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import styles from '../styles.module.css';
-import { Divider } from "@react-md/divider";
-import { red } from '@material-ui/core/colors';
 import pythonLogo from '../../../static/img/skillsLogos/pythonLogo.png';
 import cPlusPlusLogo from '../../../static/img/skillsLogos/c++Logo.png';
 import javaLogo from '../../../static/img/skillsLogos/javaLogo.png';
@@ -15,11 +13,12 @@ import postGreSqlLogo from '../../../static/img/skillsLogos/postGreSqlLogo.png';
 
 export default function Skills() {
     return (
+        <Layout>
         <div style={{marginTop:"100px"}}>
         <h1 style={{color:"white",textAlign:"center"}}>
             My Programming Skills
         </h1>
-        <Box className={styles.outerBox}>
+        <Box className={styles.outerBox} style={{marginTop:"30px"}}>
             <Box className={styles.innerBox}>
                 Languages
             </Box>
@@ -47,5 +46,6 @@ export default function Skills() {
             <img src={postGreSqlLogo} alt="psql" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         </div>
+        </Layout>
     );
 }
