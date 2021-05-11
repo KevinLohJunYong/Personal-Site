@@ -13,7 +13,6 @@ import postGreSqlLogo from '../../../static/img/skillsLogos/postGreSqlLogo.png';
 import Typist from "react-typist";
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import Roll from 'react-reveal/Roll';
 import codingWallPaper from '../../../static/img/codingWallPaper.png';
 
 export default function Skills() {

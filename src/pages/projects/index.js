@@ -9,6 +9,7 @@ import Chip from "@material-ui/core/Chip";
 import codingWallPaper from '../../../static/img/codingWallPaper2.png';
 import portfolioWebSite from '../../../static/img/portfolioWebsite.png';
 import styles from '../styles.module.css';
+import Roll from 'react-reveal/Roll';
 
 export default function Projects() {
     return (
@@ -20,6 +21,7 @@ export default function Projects() {
             position: "fixed",
             width: "100%"
           }}>
+            <Roll>
               <Card style={{width:"30%",height:"60%",margin:"30px"}}>
               <CardContent>
                       <CardMedia style={{height:"200px"}} image={portfolioWebSite}>
@@ -41,6 +43,7 @@ export default function Projects() {
                      </div>
                   </CardContent>
               </Card>
+              </Roll>
         </div>
     </Layout>
     );
