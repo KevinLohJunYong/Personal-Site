@@ -19,10 +19,10 @@ import codingWallPaper from '../../../static/img/codingWallPaper.png';
 export default function Skills() {
     return (
         <Layout>
-            <Fade left>
                 <div style={{backgroundImage: 'url('+codingWallPaper+')',
           backgroundSize: "cover",
           height: "100vh",position:"fixed",width:"100%"}}>
+              <Fade left>
         <div style={{marginTop:"100px"}}>
                  <h1 style={{color:"white",textAlign:"center"}}>
                      Languages and Technologies
@@ -55,8 +55,8 @@ export default function Skills() {
             <img src={postGreSqlLogo} alt="psql" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
         </Box>
         </div>
-        </div>
         </Fade>
+        </div>
         </Layout>
     );
 }
