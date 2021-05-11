@@ -1,14 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Kevin Loh Jun Yong',
-  tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'CS undergrad at NUS',
+  url: 'https://kevinlohjunyong.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'KevinLohJunYong', // Usually your GitHub org/user name.
+  projectName: 'portfolio-website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'KevinLohJunYong',
