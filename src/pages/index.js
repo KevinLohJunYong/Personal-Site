@@ -8,28 +8,10 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import profilePic from '@site/static/img/profile_pic.png';
 import Typist from "react-typist";
 import {Grid, Typography} from "@material-ui/core";
-import Particles from "react-particles-js";
 import "./index.css";
+import codingWallPaper from '../../static/img/codingWallPaper3.png';
+import Zoom from 'react-reveal/Zoom';
 
-const particlesConfig = {
-  particles: {
-      number: {
-          value: window.innerWidth < 600 ? 50 : 100,
-      },
-      size: {
-          value: 3,
-      },
-  },
-  interactivity: {
-      detect_on:"window",
-      events: {
-          onhover: {
-              enable: true,
-              mode: "repulse"
-          }
-      }
-  }
-}
 export default function Home() {
   const [count, setCount] = useState(1);
 
@@ -39,11 +21,14 @@ export default function Home() {
   }, [count]);
 
   return (
-     <Layout title="Home">
+     <Layout>
        <div 
-       className={styles.center}>
+       className={styles.center} style={{backgroundImage: 'url('+codingWallPaper+')',
+       backgroundSize: "cover",
+       height: "100%",position:"fixed",width:"100%"}}>
          <img className={styles.profilePic} src={profilePic} />
-         <h1 className={styles.header}> Hello, I'm Kevin and </h1>     
+         <h1 className={styles.header}> Hello, I'm Kevin! </h1>   
+         <h1 className={styles.header} style={{marginTop:"310px"}}> I built this website using ReactJS and </h1> 
          {count ? (
         <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
           <span> I'm a CS undergrad at NUS! </span>
@@ -51,13 +36,10 @@ export default function Home() {
           <span> software engineer! </span>
           <Typist.Backspace count={24} delay={500} />
           <span> love programming! </span>
-          <Typist.Backspace count={18} delay={500} />
-          <span> built this website using ReactJS! </span>
         </Typist>
       ) : (
         ""
       )}
-        <Particles className={styles.particles} params={particlesConfig} />
        </div>
      </Layout>
   );

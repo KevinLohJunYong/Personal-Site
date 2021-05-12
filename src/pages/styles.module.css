@@ -36,12 +36,12 @@
   transform: translate(-50%, 0);
 }
 .words {
-  font-size: 200%;
+  font-size: xx-large;
   font-weight: bold;
   color: white;
   text-align: center;
   position: fixed;
-  margin-top: 320px;
+  margin-top: 370px;
   left: 50%;
   transform: translate(-50%, 0);
 }

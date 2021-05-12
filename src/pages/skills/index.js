@@ -11,7 +11,6 @@ import reactJSLogo from '../../../static/img/skillsLogos/reactJSLogo.png';
 import railsLogo from '../../../static/img/skillsLogos/railsLogo.png';
 import postGreSqlLogo from '../../../static/img/skillsLogos/postGreSqlLogo.png';
 import Typist from "react-typist";
-import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import codingWallPaper from '../../../static/img/codingWallPaper.png';
 
