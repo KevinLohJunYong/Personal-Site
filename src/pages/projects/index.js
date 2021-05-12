@@ -7,7 +7,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Chip from "@material-ui/core/Chip";
 import codingWallPaper from '../../../static/img/codingWallPaper2.png';
-import portfolioWebSite from '../../../static/img/portfolioWebsite.png';
+import portfolioWebSite from '../../../static/img/portfolioWebSite.png';
 import styles from '../styles.module.css';
 import Roll from 'react-reveal/Roll';
 
