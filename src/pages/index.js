@@ -26,9 +26,9 @@ export default function Home() {
        className={styles.center} style={{backgroundImage: 'url('+codingWallPaper+')',
        backgroundSize: "cover",
        height: "100%",position:"fixed",width:"100%"}}>
-         <img className={styles.profilePic} src={profilePic} />
+         <img className={styles.profilePic} src={profilePic} style={{width:"10%",height:"20%",marginTop:"6%"}}/>
          <h1 className={styles.header}> Hello, I'm Kevin! </h1>   
-         <h1 className={styles.header} style={{marginTop:"310px"}}> I built this website using ReactJS and </h1> 
+         <h1 className={styles.header} style={{marginTop:"22%"}}> I built this website using ReactJS and </h1> 
          {count ? (
         <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
           <span> I'm a CS undergrad at NUS! </span>

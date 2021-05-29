@@ -12,16 +12,10 @@
   overflow: hidden;
 }
 .profilePic {
-  margin-top: 120px;
-  height: 120px;
-  width: 120px;
+  margin-top: 10%;
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
-}
-.particles {
-   z-index: -1;
-   top: 0vh
 }
 .center {
   text-align: center;
@@ -31,7 +25,7 @@
   font-weight: bold;
   color: white;
   position: fixed;
-  margin-top: 260px;
+  margin-top: 18%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -41,7 +35,7 @@
   color: white;
   text-align: center;
   position: fixed;
-  margin-top: 370px;
+  margin-top: 26%;
   left: 50%;
   transform: translate(-50%, 0);
 }
