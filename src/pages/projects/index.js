@@ -17,29 +17,28 @@ export default function Projects() {
           <div style={{
             backgroundImage: 'url('+codingWallPaper+')',
             backgroundSize: "cover",
-            height: "100vh",
+            height: "100%",
             position: "fixed",
             width: "100%"
           }}>
             <Roll>
-              <Card style={{width:"30%",height:"60%",margin:"30px"}}>
+              <Card style={{width:"30%",margin:"3%"}}>
               <CardContent>
-                      <CardMedia style={{height:"200px"}} image={portfolioWebSite}>
+                      <CardMedia style={{height:"30vh"}} image={portfolioWebSite}>
                       </CardMedia>
-                      <h1 style={{textAlign:"center",marginTop:"10px"}}>
+                      <h1 style={{textAlign:"center",marginTop:"5%"}}>
                           Portfolio Website
                       </h1>
                       <p style={{textAlign:"center"}}>
                           The website you are viewing now! :D
                       </p>
-                      <Button style={{marginLeft:"150px"}} size="large" variant="outlined" 
+                      <Button style={{marginLeft:"35%"}} size="large" variant="outlined" 
                         href="https://github.com/KevinLohJunYong/Personal-Site" target= "_blank">
                           Github
                      </Button>
-                     <div style={{display:"flex",marginLeft:"40px",marginTop:"10px"}}>
-                     <Chip size="medium" label="ReactJS" variant="outlined" style={{margin:"10px"}} />
-                     <Chip size="medium" label="Docusaurus" variant="outlined" style={{margin:"10px"}} />
-                     <Chip size="medium" label="Material-UI" variant="outlined" style={{margin:"10px"}} />
+                     <div style={{display:"flex",marginTop:"6%",marginLeft:"25%"}}>
+                     <Chip size="large" label="ReactJS" variant="outlined" style={{margin:"2%"}} />
+                     <Chip size="large" label="Material-UI" variant="outlined" style={{margin:"2%"}} />
                      </div>
                   </CardContent>
               </Card>

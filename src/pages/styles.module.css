@@ -59,24 +59,11 @@
    display: flex;
    border-radius: 20px;
    margin-top: 10px;
-   margin-left: 300px;
+   margin-left: 20%;
    color: white;
    background-color: white;
    font-size: larger;
    width: 60%;
    height: 100px;
 }
-.tooltip {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
+

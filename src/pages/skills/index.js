@@ -19,9 +19,9 @@ export default function Skills() {
         <Layout>
                 <div style={{backgroundImage: 'url('+codingWallPaper+')',
           backgroundSize: "cover",
-          height: "100vh",position:"fixed",width:"100%"}}>
+          height: "100%",position:"fixed",width:"100%"}}>
               <Fade left>
-        <div style={{marginTop:"100px"}}>
+        <div style={{marginTop:"10%"}}>
                  <h1 style={{color:"white",textAlign:"center"}}>
                      Languages and Technologies
                   </h1>  
@@ -29,12 +29,12 @@ export default function Skills() {
             <Box className={styles.innerBox}>
                 Languages
             </Box>
-            <img src={pythonLogo} alt="python" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}}/>
-            <img src={cPlusPlusLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
-            <img src={javaLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
-            <img src={JSLogo} alt="c++" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={pythonLogo} alt="python" style={{margin:"10px"}}/>
+            <img src={cPlusPlusLogo} alt="c++" style={{margin:"10px"}} />
+            <img src={javaLogo} alt="c++" style={{margin:"10px"}} />
+            <img src={JSLogo} alt="c++" style={{margin:"10px"}} />
         </Box>
-        <Box className={styles.outerBox} style={{marginTop:"10px"}}>
+        <Box className={styles.outerBox}>
             <Box className={styles.innerBox}>
                 FrontEnd
             </Box>
@@ -44,7 +44,7 @@ export default function Skills() {
             <Box className={styles.innerBox}>
                 BackEnd
             </Box>
-            <img src={railsLogo} alt="rails" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={railsLogo} alt="rails" style={{width: "auto", maxHeight:"90%",margin:"10px"}} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
