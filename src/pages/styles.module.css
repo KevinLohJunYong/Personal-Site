@@ -1,21 +1,6 @@
-/* stylelint-disable docusaurus/copyright-header */
-
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 .profilePic {
   margin-top: 10%;
-  position: fixed;
   left: 50%;
-  transform: translate(-50%, 0);
 }
 .center {
   text-align: center;
@@ -24,20 +9,16 @@
   font-size: 200%;
   font-weight: bold;
   color: white;
-  position: fixed;
-  margin-top: 18%;
+  margin-top: 2%;
   left: 50%;
-  transform: translate(-50%, 0);
 }
 .words {
   font-size: xx-large;
   font-weight: bold;
   color: white;
   text-align: center;
-  position: fixed;
-  margin-top: 26%;
+  margin-top: 2%;
   left: 50%;
-  transform: translate(-50%, 0);
 }
 .vl {
   border-left: 100px solid white;
@@ -66,4 +47,3 @@
    width: 60%;
    height: 100px;
 }
-
