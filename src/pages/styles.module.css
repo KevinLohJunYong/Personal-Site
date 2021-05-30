@@ -46,6 +46,7 @@
 @media screen and (max-width: 400px) {
   .innerBox {
     font-size: medium;
+    width: 30%;
   }
 }
 .outerBox {
@@ -61,7 +62,7 @@
 }
 @media screen and (max-width: 400px) {
   .header {
-    font-size: 100%;
+    font-size: 125%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -115,6 +116,6 @@
 }
 @media screen and (max-width: 400px) {
   .skillsLogo {
-    width: 3%;
+    width: 7%;
   }
 }
