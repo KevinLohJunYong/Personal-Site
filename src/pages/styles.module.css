@@ -76,7 +76,7 @@
 }
 @media screen and (max-width: 400px) {
   .projectHeader {
-    font-size: 150%;
+    font-size: 100%;
   }
 }
 /* style={{width:"30%",margin:"3%"}} */
