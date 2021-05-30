@@ -43,6 +43,11 @@
   width: 22%;
   font-size: x-large;
 }
+@media screen and (max-width: 400px) {
+  .innerBox {
+    font-size: medium;
+  }
+}
 .outerBox {
    display: flex;
    border-radius: 20px;
@@ -105,5 +110,11 @@
 }
 
 .skillsLogo {
-  
+  width: 10%;
+  margin: 1%;
+}
+@media screen and (max-width: 400px) {
+  .skillsLogo {
+    width: 3%;
+  }
 }

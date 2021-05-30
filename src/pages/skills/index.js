@@ -29,7 +29,7 @@ export default function Skills() {
             <Box className={styles.innerBox}>
                 Languages
             </Box>
-            <img src={pythonLogo} alt="python" className={styles.skillsLogo}/>
+            <img className={styles.skillsLogo} src={pythonLogo} alt="python"/>
             <img src={cPlusPlusLogo} alt="c++" className={styles.skillsLogo}/>
             <img src={javaLogo} alt="c++" className={styles.skillsLogo} />
             <img src={JSLogo} alt="c++" className={styles.skillsLogo} />
