@@ -9,6 +9,7 @@
   .profilePic {
     width: 25%;
     height: 15%;
+    margin-top: 15%;
   }
 }
 .center {
@@ -46,7 +47,7 @@
 @media screen and (max-width: 400px) {
   .innerBox {
     font-size: medium;
-    width: 30%;
+    width: 35%;
   }
 }
 .outerBox {
@@ -67,7 +68,7 @@
 }
 @media screen and (max-width: 400px) {
   .words {
-    font-size: 100%;
+    font-size: 125%;
   }
 }
 /*style={{textAlign:"center",marginTop:"5%"}}*/
@@ -116,6 +117,6 @@
 }
 @media screen and (max-width: 400px) {
   .skillsLogo {
-    width: 7%;
+    margin: 2%;
   }
 }
