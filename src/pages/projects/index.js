@@ -32,11 +32,11 @@ export default function Projects() {
                       <p style={{textAlign:"center"}}>
                           The website you are viewing now! :D
                       </p>
-                      <Button style={{marginLeft:"35%"}} size="large" variant="outlined" 
+                      <Button className={styles.projectButton} size="large" variant="outlined" 
                         href="https://github.com/KevinLohJunYong/Personal-Site" target= "_blank">
                           Github
                      </Button>
-                     <div style={{display:"flex",marginTop:"6%",marginLeft:"25%"}}>
+                     <div className={styles.chips}>
                      <Chip size="large" label="ReactJS" variant="outlined" style={{margin:"2%"}} />
                      <Chip size="large" label="Material-UI" variant="outlined" style={{margin:"2%"}} />
                      </div>

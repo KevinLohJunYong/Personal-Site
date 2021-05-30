@@ -7,7 +7,7 @@
 }
 @media screen and (max-width: 400px) {
   .profilePic {
-    width: 15%;
+    width: 25%;
     height: 15%;
   }
 }
@@ -71,7 +71,7 @@
 }
 @media screen and (max-width: 400px) {
   .projectHeader {
-    font-size: 100%;
+    font-size: 150%;
   }
 }
 /* style={{width:"30%",margin:"3%"}} */
@@ -79,12 +79,31 @@
    width: 30%;
    margin: 3%;
 }
-@media screen and (max-width: 400px) {
-  .card {
-    width: 40%;
-  }
-}
 /* style={{height:"30vh"}} */
 .projectImage {
     height: 20vh;
+}
+/* style={{marginLeft:"35%"}} */
+.projectButton {
+  margin-left: 35%;
+}
+@media screen and (max-width: 400px) {
+  .projectButton {
+    margin-left: 25%;
+  }
+}
+/* style={{display:"flex",marginTop:"6%",marginLeft:"25%"}} */
+.chips {
+   display: flex;
+   margin-top: 6%;
+   margin-left: 25%;
+}
+@media screen and (max-width: 400px) {
+  .chips {
+    margin-left: 15%;
+  }
+}
+
+.skillsLogo {
+  
 }

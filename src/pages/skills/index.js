@@ -29,28 +29,28 @@ export default function Skills() {
             <Box className={styles.innerBox}>
                 Languages
             </Box>
-            <img src={pythonLogo} alt="python" style={{margin:"10px"}}/>
-            <img src={cPlusPlusLogo} alt="c++" style={{margin:"10px"}} />
-            <img src={javaLogo} alt="c++" style={{margin:"10px"}} />
-            <img src={JSLogo} alt="c++" style={{margin:"10px"}} />
+            <img src={pythonLogo} alt="python" className={styles.skillsLogo}/>
+            <img src={cPlusPlusLogo} alt="c++" className={styles.skillsLogo}/>
+            <img src={javaLogo} alt="c++" className={styles.skillsLogo} />
+            <img src={JSLogo} alt="c++" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox}>
             <Box className={styles.innerBox}>
                 FrontEnd
             </Box>
-            <img src={reactJSLogo} alt="reactJS" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={reactJSLogo} alt="reactJS" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
                 BackEnd
             </Box>
-            <img src={railsLogo} alt="rails" style={{width: "auto", maxHeight:"90%",margin:"10px"}} />
+            <img src={railsLogo} alt="rails" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
                 DataBases
             </Box>
-            <img src={postGreSqlLogo} alt="psql" style={{width: "auto", maxWidth:"100px", maxHeight:"90%",margin:"10px"}} />
+            <img src={postGreSqlLogo} alt="psql" className={styles.skillsLogo} />
         </Box>
         </div>
         </Fade>
