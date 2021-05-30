@@ -26,7 +26,7 @@ export default function Projects() {
               <CardContent>
                       <CardMedia style={{height:"30vh"}} image={portfolioWebSite}>
                       </CardMedia>
-                      <h1 style={{textAlign:"center",marginTop:"5%"}}>
+                      <h1 className={styles.projectHeader}>
                           Portfolio Website
                       </h1>
                       <p style={{textAlign:"center"}}>

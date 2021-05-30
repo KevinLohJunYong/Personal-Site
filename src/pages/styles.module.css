@@ -1,6 +1,5 @@
 .profilePic {
   margin-top: 10%;
-  left: 50%;
 }
 .center {
   text-align: center;
@@ -10,7 +9,6 @@
   font-weight: bold;
   color: white;
   margin-top: 2%;
-  left: 50%;
 }
 .words {
   font-size: xx-large;
@@ -18,7 +16,6 @@
   color: white;
   text-align: center;
   margin-top: 2%;
-  left: 50%;
 }
 .vl {
   border-left: 100px solid white;
@@ -46,4 +43,19 @@
    font-size: larger;
    width: 60%;
    height: 100px;
+}
+@media screen and (max-width: 400px) {
+  .header {
+    font-size: 100%;
+  }
+}
+/*style={{textAlign:"center",marginTop:"5%"}}*/
+.projectHeader {
+   text-align: center;
+   margin-top: 5%;
+}
+@media screen and (max-width: 400px) {
+  .projectHeader {
+    font-size: 100%;
+  }
 }
