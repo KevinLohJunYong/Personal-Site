@@ -95,16 +95,7 @@
 .projectImage {
     height: 20vh;
 }
-/* style={{marginLeft:"35%"}} */
-.projectButton {
-  margin-left: 35%;
-}
-@media screen and (max-width: 400px) {
-  .projectButton {
-    margin-left: 25%;
-  }
-}
-/* style={{display:"flex",marginTop:"6%",marginLeft:"25%"}} */
+
 .chips {
    display: flex;
    margin-top: 6%;
@@ -115,7 +106,14 @@
     margin-left: 15%;
   }
 }
-
+.projButton {
+  margin-left: 35%;
+}
+@media screen and (max-width: 400px) {
+  .projButton {
+    margin-left: 20%;
+  }
+}
 .skillsLogo {
   width: 10%;
   margin: 1%;
