@@ -22,9 +22,9 @@ export default function Projects() {
             width: "100%"
           }}>
             <Roll>
-              <Card style={{width:"30%",margin:"3%"}}>
+              <Card className={styles.card}>
               <CardContent>
-                      <CardMedia style={{height:"30vh"}} image={portfolioWebSite}>
+                      <CardMedia className={styles.projectImage} image={portfolioWebSite}>
                       </CardMedia>
                       <h1 className={styles.projectHeader}>
                           Portfolio Website

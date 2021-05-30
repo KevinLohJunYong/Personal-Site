@@ -26,7 +26,7 @@ export default function Home() {
        className={styles.center} style={{backgroundImage: 'url('+codingWallPaper+')',
        backgroundSize: "cover",position:"fixed",
        height: "100%",width:"100%"}}>
-         <img className={styles.profilePic} src={profilePic} style={{width:"10%",height:"20%",marginTop:"6%"}}/>
+         <img className={styles.profilePic} src={profilePic}/>
          <h1 className={styles.header}> Hello, I'm Kevin! </h1>   
          <h1 className={styles.header} style={{marginTop:"2%"}}> I built this website using ReactJS and </h1> 
          {count ? (

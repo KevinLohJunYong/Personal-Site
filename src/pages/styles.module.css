@@ -1,5 +1,15 @@
+/*  style={{width:"10%",height:"20%",marginTop:"6%"}} */
 .profilePic {
   margin-top: 10%;
+  width: 10%;
+  height: 20%;
+  margin-top: 6%;
+}
+@media screen and (max-width: 400px) {
+  .profilePic {
+    width: 15%;
+    height: 15%;
+  }
 }
 .center {
   text-align: center;
@@ -11,7 +21,7 @@
   margin-top: 2%;
 }
 .words {
-  font-size: xx-large;
+  font-size: 200%;
   font-weight: bold;
   color: white;
   text-align: center;
@@ -49,6 +59,11 @@
     font-size: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  .words {
+    font-size: 100%;
+  }
+}
 /*style={{textAlign:"center",marginTop:"5%"}}*/
 .projectHeader {
    text-align: center;
@@ -58,4 +73,18 @@
   .projectHeader {
     font-size: 100%;
   }
+}
+/* style={{width:"30%",margin:"3%"}} */
+.card {
+   width: 30%;
+   margin: 3%;
+}
+@media screen and (max-width: 400px) {
+  .card {
+    width: 40%;
+  }
+}
+/* style={{height:"30vh"}} */
+.projectImage {
+    height: 20vh;
 }
