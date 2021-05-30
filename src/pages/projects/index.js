@@ -32,13 +32,13 @@ export default function Projects() {
                       <p style={{textAlign:"center"}}>
                           The website you are viewing now! :D
                       </p>
-                      <Button className={styles.projectButton} size="large" variant="outlined" 
+                      <Button style={{marginLeft:getMarginLeftButton()}} size={getSizeButton()} variant="outlined" 
                         href="https://github.com/KevinLohJunYong/Personal-Site" target= "_blank">
                           Github
                      </Button>
                      <div className={styles.chips}>
-                     <Chip size="large" label="ReactJS" variant="outlined" style={{margin:"2%"}} />
-                     <Chip size="large" label="Material-UI" variant="outlined" style={{margin:"2%"}} />
+                     <Chip size={getSizeChips()} label="ReactJS" variant="outlined" style={{margin:"2%"}} />
+                     <Chip size={getSizeChips()} label="Material-UI" variant="outlined" style={{margin:"2%"}} />
                      </div>
                   </CardContent>
               </Card>
@@ -46,4 +46,13 @@ export default function Projects() {
         </div>
     </Layout>
     );
+}
+function getMarginLeftButton() {
+  return window.innerWidth <= 400 ? "20%" : "35%"
+}
+function getSizeButton() {
+  return window.innerWidth <= 400 ? "small" : "large"
+}
+function getSizeChips() {
+  return window.innerWidth <= 400 ? "small" : "large"
 }

@@ -47,7 +47,7 @@
 @media screen and (max-width: 400px) {
   .innerBox {
     font-size: medium;
-    width: 35%;
+    width: 37%;
   }
 }
 .outerBox {
@@ -60,6 +60,11 @@
    font-size: larger;
    width: 60%;
    height: 100px;
+}
+@media screen and (max-width: 400px) {
+  .outerBox {
+    height: 90px;
+  }
 }
 @media screen and (max-width: 400px) {
   .header {
