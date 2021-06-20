@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import { Grid } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import styles from '../styles.module.css';
+import djangoLogo from '../../../static/img/skillsLogos/djangoLogo.png';
 import pythonLogo from '../../../static/img/skillsLogos/pythonLogo.png';
 import cPlusPlusLogo from '../../../static/img/skillsLogos/c++Logo.png';
 import javaLogo from '../../../static/img/skillsLogos/javaLogo.png';
@@ -45,6 +46,7 @@ export default function Skills() {
                 BackEnd
             </Box>
             <img src={railsLogo} alt="rails" className={styles.skillsLogo} />
+            <img src={djangoLogo} alt="django" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
