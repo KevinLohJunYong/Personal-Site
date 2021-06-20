@@ -74,6 +74,11 @@
   .words {
     font-size: 125%;
   }
+  @media screen and (max-width: 500px) {
+    .words {
+      font-size: 125%;
+    }
+  }
 /*style={{textAlign:"center",marginTop:"5%"}}*/
 .projectHeader {
    text-align: center;
