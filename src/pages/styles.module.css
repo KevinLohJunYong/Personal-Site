@@ -79,7 +79,7 @@
    text-align: center;
    margin-top: 5%;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .projectHeader {
     font-size: 100%;
   }
@@ -89,17 +89,28 @@
    width: 30%;
    margin: 3%;
 }
+@media screen and (max-width: 500px) {
+  .card {
+    margin: 1%;
+    width: 32%;
+  }
+}
 /* style={{height:"30vh"}} */
 .projectImage {
     height: 30vh;
 }
+
+@media screen and (max-width: 500px) {
+  .projectImage {
+    height: 20vh;
+  }
 
 .chips {
    display: flex;
    margin-top: 6%;
    margin-left: 25%;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .chips {
     margin-left: 2%;
   }
