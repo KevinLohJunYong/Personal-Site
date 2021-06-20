@@ -8,6 +8,8 @@ import CardContent from "@material-ui/core/CardContent";
 import Chip from "@material-ui/core/Chip";
 import codingWallPaper from '../../../static/img/codingWallPaper2.png';
 import portfolioWebSite from '../../../static/img/portfolioWebSite.png';
+import meetThePathFinderAlgorithms from '../../../static/img/meetThePathFinderAlgorithms.png';
+import SortingAlgorithms from '../../../static/img/SortingVisualiser.png';
 import styles from '../styles.module.css';
 import Roll from 'react-reveal/Roll';
 
@@ -22,6 +24,7 @@ export default function Projects() {
             width: "100%"
           }}>
             <Roll>
+              <div style={{display:"flex",flexDirection:"row"}}>
               <Card className={styles.card}>
               <CardContent>
                       <CardMedia className={styles.projectImage} image={portfolioWebSite}>
@@ -38,12 +41,48 @@ export default function Projects() {
                           Github
                      </Button>
                      </div>
-                     <div className={styles.chips}>
-                     <Chip size="large" label="ReactJS" variant="outlined" style={{margin:"2%"}} />
-                     <Chip size="large" label="Material-UI" variant="outlined" style={{margin:"2%"}} />
+                  </CardContent>
+              </Card>
+              <Card className={styles.card}>
+              <CardContent>
+                      <CardMedia className={styles.projectImage} image={meetThePathFinderAlgorithms}>
+                      </CardMedia>
+                      <h1 className={styles.projectHeader}>
+                          Path Finder Visualiser
+                      </h1>
+                      <p style={{textAlign:"center"}}>
+                          A path finder visualiser I designed. You can play with it by clicking the highlighted link
+                          :D
+                          <a href="https://meetthepathfinderalgorithms.netlify.app/" target="_blank"> PathFinderVisualiser  </a>
+                      </p>
+                      <div className={styles.projButton}>
+                      <Button size="large" variant="outlined" 
+                        href="https://github.com/KevinLohJunYong/PathFinderVisualiser" target= "_blank">
+                          Github
+                     </Button>
                      </div>
                   </CardContent>
               </Card>
+              <Card className={styles.card}>
+              <CardContent>
+                      <CardMedia className={styles.projectImage} image={SortingAlgorithms}>
+                      </CardMedia>
+                      <h1 className={styles.projectHeader}>
+                          Sorting Visualiser
+                      </h1>
+                      <p style={{textAlign:"center"}}>
+                          A sorting visualiser I designed. You can play with it by clicking the highlighted link :D
+                          <a href="https://ilovesortingalgorithms.netlify.app/" target="_blank"> Sorting Visualiser </a>
+                      </p>
+                      <div className={styles.projButton}>
+                      <Button size="large" variant="outlined" 
+                        href="https://github.com/KevinLohJunYong/SortingVisualiser" target= "_blank">
+                          Github
+                     </Button>
+                     </div>
+                  </CardContent>
+              </Card>
+              </div>
               </Roll>
         </div>
     </Layout>

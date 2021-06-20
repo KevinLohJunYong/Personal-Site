@@ -30,11 +30,11 @@ export default function Home() {
          <h1 className={styles.header} style={{marginTop:"2%"}}> I built this website using ReactJS and </h1> 
          {count ? (
         <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
-          <span> I'm a CS undergrad at NUS! </span>
+          <span style={{fontSize:"150%"}}> I'm a CS undergrad at NUS! </span>
           <Typist.Backspace count={22} delay={500} />
-          <span> software engineer! </span>
+          <span style={{fontSize:"150%"}}> software engineer! </span>
           <Typist.Backspace count={24} delay={500} />
-          <span> love programming! </span>
+          <span style={{fontSize:"150%"}}> love programming! </span>
         </Typist>
       ) : (
         ""

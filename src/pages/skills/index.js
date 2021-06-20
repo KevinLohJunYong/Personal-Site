@@ -9,7 +9,7 @@ import javaLogo from '../../../static/img/skillsLogos/javaLogo.png';
 import JSLogo from '../../../static/img/skillsLogos/JSLogo.png';
 import reactJSLogo from '../../../static/img/skillsLogos/reactJSLogo.png';
 import railsLogo from '../../../static/img/skillsLogos/railsLogo.png';
-import postGreSqlLogo from '../../../static/img/skillsLogos/postGreSqlLogo.png';
+import postGreSqlLogo from '../../../static/img/skillsLogos/psqlLogo.png';
 import Typist from "react-typist";
 import Fade from 'react-reveal/Fade';
 import codingWallPaper from '../../../static/img/codingWallPaper.png';
@@ -29,10 +29,10 @@ export default function Skills() {
             <Box className={styles.innerBox}>
                 Languages
             </Box>
-            <img className={styles.skillsLogo} src={pythonLogo} alt="python"/>
+            <img className={styles.skillsLogo} style={{marginLeft:"1%"}} src={pythonLogo} alt="python"/>
             <img src={cPlusPlusLogo} alt="c++" className={styles.skillsLogo}/>
-            <img src={javaLogo} alt="c++" className={styles.skillsLogo} />
-            <img src={JSLogo} alt="c++" className={styles.skillsLogo} />
+            <img src={javaLogo} alt="java" className={styles.skillsLogo} />
+            <img src={JSLogo} alt="javascript" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox}>
             <Box className={styles.innerBox}>
