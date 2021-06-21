@@ -49,10 +49,6 @@ export default function resume() {
            </ul>
            <h2> Help Desk </h2>
            <ul>
-             <li> 
-               <h3> I decided to do a minor project for fun while learning the Django Framework and 
-                 Bootstrap </h3> 
-              </li>
               <li> 
                 <h3> This website allows users to ask for help about anything and 
                   answer help others may have. It also has sign up and login features. </h3> 
@@ -65,9 +61,6 @@ export default function resume() {
            </ul>
            <h2> Portfolio Website </h2>
            <ul>
-             <li> 
-               <h3> I created a Portfolio Website using ReactJS, Material-UI, HTML and CSS </h3> 
-              </li>
               <li> 
                 <h3> This is the website you are viewing now </h3> 
               </li>
