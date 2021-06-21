@@ -5,15 +5,17 @@ export default function resume() {
     return (
       <Layout>
         <div style={{backgroundColor:"white"}}> 
-          <div style={{display:"flex",flexDirection:"row"}}>
             <div>
           <h1>
              Kevin Loh Jun Yong
            </h1>
+           </div>
+           <div style={{display:"flex",flexDirection:"row"}}>
+             <div>
            <h3> Proficient in Java, Javascript, ReactJS, Django and Git </h3>
            <h3> Familiar with C++, Ruby on Rails, PostgreSQL </h3>
            </div>
-           <div style={{marginLeft:"15%",marginTop:"5%"}}>
+           <div style={{marginLeft:"15%"}}>
              <h3>
              Mobile Number/WhatsApp: +65 8700 2086
              </h3>
