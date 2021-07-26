@@ -29,12 +29,12 @@ export default function Home() {
          <h1 className={styles.header}> Hello, I'm Kevin! </h1>   
          <h1 className={styles.header} style={{marginTop:"2%"}}> I built this website using ReactJS and </h1> 
          {count ? (
-        <Typist className={styles.words} avgTypingDelay={50} onTypingDone={() => setCount(0)} >
-          <span style={{fontSize:getFontSize()}}> I'm a CS undergrad at NUS! </span>
+        <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)} >
+          <span className={styles.words} > I'm a CS undergrad at NUS! </span>
           <Typist.Backspace count={22} delay={500} />
-          <span style={{fontSize:getFontSize()}}> software engineer! </span>
+          <span className={styles.words} > software engineer! </span>
           <Typist.Backspace count={24} delay={500} />
-          <span style={{fontSize:getFontSize()}}> love programming! </span>
+          <span className={styles.words} > love programming! </span>
         </Typist>
       ) : (
         ""
@@ -42,12 +42,6 @@ export default function Home() {
        </div>
      </Layout>
   );
-}
-function getFontSize() {
-  if(window.screen.width <= 500) {
-    return "125%";
-  }
-  return "150%";
 }
 
 

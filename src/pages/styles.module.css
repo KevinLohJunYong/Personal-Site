@@ -80,9 +80,6 @@
     font-size: 125%;
   }
 }
-  .words {
-    font-size: 125%;
-  }
   @media screen and (max-width: 500px) {
     .words {
       font-size: 125%;
