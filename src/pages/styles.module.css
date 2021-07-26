@@ -132,6 +132,7 @@
 .projButton {
   margin-left: 35%;
 }
+
 @media screen and (max-width: 500px) {
   .projButton {
     margin-left: 5%;
