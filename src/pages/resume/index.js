@@ -28,6 +28,7 @@ export default function resume() {
            <h2> National University of Singapore - AUG 2019 - MAY 2023 </h2>
            <ul>
              <li> <h3> Bachelor of Computing in Computer Science (Honours) </h3> </li>
+             <li> <h3> Admitted with 3H2 distinctions and B for General Paper ( IGP: AAA/B ) at the Singapore-Cambridge GCE A-Level Examination </h3> </li>
            </ul>
            <h1 style={{color:"#00bfff"}}> 
              Side Projects
@@ -36,27 +37,27 @@ export default function resume() {
                      Path Finder Visualiser App </a>) </h2>
            <ul>
               <li> 
-               <h3> It allows users to play with the positions of the start and end nodes, add walls and 
-                 see the cool animation for the different path finder algorithms </h3> 
+               <h3> It allows users to see cool animations for different path finder algorithms </h3> 
               </li>
            </ul>
            <h2> SortingVisualiser App (Link: <a href="https://ilovesortingalgorithms.netlify.app/" target="_blank"> 
                    Sorting Visualiser App </a>) </h2>
            <ul>
              <li> 
-               <h3> It shows cool animations for different sorting algorithms </h3> 
+               <h3> It allows users to see cool animations for different sorting algorithms </h3> 
               </li>
            </ul>
-           <h2> Help Desk </h2>
+           <h2> Minor side projects </h2>
            <ul>
+             <li>
+               <h3>
+                 Snake Game ( Link: <a href="https://funsnakegame.netlify.app/"> Snake Game </a>) is a game where the snake grows upon eating food but it dies when it hits the walls or eats itself.
+               </h3>
+             </li>
               <li> 
-                <h3> This website allows users to ask for help about anything and 
-                  answer help others may have. It also has sign up and login features. </h3> 
-              </li>
-              <li>
-                <h3> You can view this app on localhost:3000 by doing git clone
-                https://github.com/KevinLohJunYong/HelpDesk.git, cd HelpDesk and finally running yarn start
-                </h3>
+                <h3> Help Desk ( Link: <a href="https://github.com/KevinLohJunYong/HelpDesk.git"> Help Desk </a>) allows users to ask for help about anything and 
+                  answer help others may have. 
+                </h3> 
               </li>
            </ul>
            <h2> Portfolio Website </h2>
@@ -69,7 +70,7 @@ export default function resume() {
              Technical Proficiency
            </h1>
            <ul>
-             <li> <h3> Proficient in Java, Javacript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
+             <li> <h3> Proficient in BootStrap, Java, Javacript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
              <li> <h3> Familiar with C++, PostGreSQL and Ruby On Rails </h3> </li>
            </ul>
            <h1 style={{color:"#00bfff"}}> 
@@ -80,15 +81,16 @@ export default function resume() {
              <h3> I enjoy doing personal programming projects in my free time </h3>
            </li>
            <li>
-            <h3> Furthermore, I enjoy doing algorithm problems in my free time which I believe helps to improve my computer science fundamentals, problem solving abilities 
-             and soft skills like the never-say-die attitude </h3>
+            <h3>
+               I love problem-solving and enjoys doing algorithm problems in my free time
+             </h3>
            </li>
            <li>
-             <h3> Moreover, I plays table tennis mainly recreationally and 
-                 represented the Computing Faculty in NUS in table tennis competitions in both singles and doubles </h3>
+             <h3> I am a sporty person who plays table tennis mainly recreationally and also
+                 represented the Computing Faculty in NUS in table tennis competitions </h3>
            </li>
            <li>
-             <h3> Additionally, I am a friendly, cheerful and sociable person </h3>
+             <h3> I am a friendly, cheerful and sociable person </h3>
            </li>
            </ul>
         </div>
