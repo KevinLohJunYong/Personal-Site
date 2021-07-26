@@ -44,6 +44,14 @@
   width: 22%;
   font-size: x-large;
 }
+.techHeader {
+  font-size: xx-large;
+}
+@media screen and (max-width: 400px) {
+  .techHeader {
+    font-size: larger;
+  }
+}
 @media screen and (max-width: 400px) {
   .innerBox {
     font-size: medium;

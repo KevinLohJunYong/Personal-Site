@@ -23,7 +23,7 @@ export default function Skills() {
           height: "100%",position:"fixed",width:"100%"}}>
               <Fade left>
         <div style={{marginTop:"10%"}}>
-                 <h1 style={{color:"white",textAlign:"center"}}>
+                 <h1 className={styles.techHeader} style={{color:"white",textAlign:"center"}}>
                      Languages and Technologies
                   </h1>  
         <Box className={styles.outerBox}>
