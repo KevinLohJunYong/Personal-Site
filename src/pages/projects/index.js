@@ -51,8 +51,7 @@ export default function Projects() {
                           Path Finder Visualiser
                       </h1>
                       <p style={{textAlign:"center"}}>
-                          A path finder visualiser I designed. You can play with it by clicking the highlighted link
-                          :D
+                          A path finder visualiser I designed
                           <a href="https://meetthepathfinderalgorithms.netlify.app/" target="_blank"> PathFinderVisualiser  </a>
                       </p>
                       <div className={styles.projButton}>
@@ -71,7 +70,7 @@ export default function Projects() {
                           Sorting Visualiser
                       </h1>
                       <p style={{textAlign:"center"}}>
-                          A sorting visualiser I designed. You can play with it by clicking the highlighted link :D
+                          A sorting visualiser I designed 
                           <a href="https://ilovesortingalgorithms.netlify.app/" target="_blank"> Sorting Visualiser </a>
                       </p>
                       <div className={styles.projButton}>
