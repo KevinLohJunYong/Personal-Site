@@ -72,7 +72,7 @@ export default function resume() {
            </h1>
            <ul>
              <li> <h3> Proficient in BootStrap, Java, Javacript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
-             <li> <h3> Familiar with C++, PostGreSQL and Ruby On Rails </h3> </li>
+             <li> <h3> Familiar with C++, PostgreSQL and Ruby On Rails </h3> </li>
            </ul>
         </div>
         </div>

@@ -11,7 +11,6 @@ module.exports = {
     navbar: {
       title: 'KevinLohJunYong',
       items: [
-        { to: 'skills', label: 'Skills', position: 'left' },
         { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'resume', label: 'Resume', position: 'left' },
         {
