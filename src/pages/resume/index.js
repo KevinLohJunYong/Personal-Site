@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import styles from './resumeStyles.css';
 
 export default function resume() {
     return (
+      <div style={{backgroundColor:"white"}}>
       <Layout>
         <div style={{backgroundColor:"white"}}>
           <div style={{marginLeft:"4%"}}>
@@ -82,5 +82,6 @@ export default function resume() {
         </div>
         </div>
       </Layout>
+      </div>
     );
 }
