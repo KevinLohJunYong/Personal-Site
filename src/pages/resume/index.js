@@ -29,7 +29,7 @@ export default function resume() {
            <h2 style={{marginTop:"2%"}}> National University of Singapore - AUG 2019 - MAY 2023 </h2>
            <ul>
              <li> <h3> Bachelor of Computing in Computer Science (Honours) </h3> </li>
-             <li> <h3> Incoming 3rd year undergraduate, specialising in Software engineering and Algorithms </h3></li>
+             <li> <h3> Incoming 3rd year undergraduate, specialising in Software Engineering and Algorithms </h3></li>
              <li> <h3> Admitted with 3H2 distinctions and B for General Paper ( IGP: AAA/B ) at the Singapore-Cambridge GCE A-Level Examination </h3> </li>
            </ul>
            <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
@@ -61,7 +61,7 @@ export default function resume() {
            <ul>
              <li> <h3> Relevant modules taken: Programming Methodology I & II, Data Structures And Algorithms, Software Engineering, Computer Organisation, Database Systems and Discrete Structures </h3></li>
              <li> <h3> Proficient in BootStrap, Java, Javascript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
-             <li> <h3> Familiar with C++, PostgreSQL and Ruby On Rails </h3> </li>
+             <li> <h3> Familiar with C++, PostgreSQL, Ruby On Rails and MATLAB </h3> </li>
            </ul>
            <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
               Hobbies
