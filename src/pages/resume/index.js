@@ -29,6 +29,7 @@ export default function resume() {
            <h2 style={{marginTop:"2%"}}> National University of Singapore - AUG 2019 - MAY 2023 </h2>
            <ul>
              <li> <h3> Bachelor of Computing in Computer Science (Honours) </h3> </li>
+             <li> <h3> Incoming 3rd year undergraduate, specialising in Software engineering and Algorithms </h3></li>
              <li> <h3> Admitted with 3H2 distinctions and B for General Paper ( IGP: AAA/B ) at the Singapore-Cambridge GCE A-Level Examination </h3> </li>
            </ul>
            <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
@@ -54,20 +55,22 @@ export default function resume() {
                 <h3> This is the website you are viewing now </h3> 
               </li>
            </ul>
-           <h2 style={{marginTop:"2%"}}> Minor side projects </h2>
-           <ul>
-             <li>
-               <h3>
-                 Snake Game ( Link: <a href="https://funsnakegame.netlify.app/"> Snake Game </a>) is a game where the snake grows upon eating food but it dies when it hits the walls or eats itself.
-               </h3>
-             </li>
-           </ul>
            <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
              Technical Proficiency
            </h1>
            <ul>
-             <li> <h3> Proficient in BootStrap, Java, Javacript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
+             <li> <h3> Relevant modules taken: Programming Methodology I & II, Data Structures And Algorithms, Software Engineering, Computer Organisation, Database Systems and Discrete Structures </h3></li>
+             <li> <h3> Proficient in BootStrap, Java, Javascript, Python, ReactJS, Django, Git, Linux and Vim </h3> </li>
              <li> <h3> Familiar with C++, PostgreSQL and Ruby On Rails </h3> </li>
+           </ul>
+           <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
+              Hobbies
+           </h1>
+           <ul>
+             <li> <h3> Enjoys doing software engineering projects. 
+               There are other projects I did, which includes a snake game and a QA website </h3> </li>
+               <li> <h3> Enjoys solving algorithm problems </h3></li>
+             <li> <h3> Represented NUS Computing in Inter-Faculty Games in table tennis </h3></li>
            </ul>
         </div>
         </div>
