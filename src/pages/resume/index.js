@@ -48,6 +48,12 @@ export default function resume() {
                <h3> It allows users to see cool animations for different sorting algorithms </h3> 
               </li>
            </ul>
+           <h2 style={{marginTop:"2%"}}> Portfolio Website </h2>
+           <ul>
+              <li> 
+                <h3> This is the website you are viewing now </h3> 
+              </li>
+           </ul>
            <h2 style={{marginTop:"2%"}}> Minor side projects </h2>
            <ul>
              <li>
@@ -55,17 +61,6 @@ export default function resume() {
                  Snake Game ( Link: <a href="https://funsnakegame.netlify.app/"> Snake Game </a>) is a game where the snake grows upon eating food but it dies when it hits the walls or eats itself.
                </h3>
              </li>
-              <li> 
-                <h3> Help Desk ( Link: <a href="https://github.com/KevinLohJunYong/HelpDesk.git"> Help Desk </a>) allows users to ask for help about anything and 
-                  answer help others may have. 
-                </h3> 
-              </li>
-           </ul>
-           <h2 style={{marginTop:"2%"}}> Portfolio Website </h2>
-           <ul>
-              <li> 
-                <h3> This is the website you are viewing now </h3> 
-              </li>
            </ul>
            <h1 style={{color:"#00bfff",marginTop:"4%"}}> 
              Technical Proficiency

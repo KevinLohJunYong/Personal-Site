@@ -12,6 +12,7 @@ module.exports = {
       title: 'KevinLohJunYong',
       items: [
         { to: 'projects', label: 'Projects', position: 'left' },
+        { to: 'skills', label: 'Skills', position: 'left' },
         { to: 'resume', label: 'Resume', position: 'left' },
         {
           href: "mailto:e0439232@u.nus.edu", 
