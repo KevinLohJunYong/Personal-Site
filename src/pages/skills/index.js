@@ -37,20 +37,20 @@ export default function Skills() {
         </Box>
         <Box className={styles.outerBox}>
             <Box className={styles.innerBox}>
-                FrontEnd
+                Front-end
             </Box>
             <img src={reactJSLogo} alt="reactJS" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
-                BackEnd
+                Back-end
             </Box>
             <img src={railsLogo} alt="rails" className={styles.skillsLogo} />
             <img src={djangoLogo} alt="django" className={styles.skillsLogo} />
         </Box>
         <Box className={styles.outerBox} style={{marginTop:"10px"}}>
             <Box className={styles.innerBox}>
-                DataBases
+                Databases
             </Box>
             <img src={postGreSqlLogo} alt="psql" className={styles.skillsLogo} />
         </Box>
