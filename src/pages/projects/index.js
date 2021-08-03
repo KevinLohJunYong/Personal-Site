@@ -71,7 +71,7 @@ export default function Projects() {
                       </h1>
                       <p style={{textAlign:"center"}}>
                           A sorting visualiser I designed 
-                          <a href="https://ilovesortingalgorithms.netlify.app/" target="_blank"> Sorting Visualiser </a>
+                          <a href="https://ilovesortingalgorithms.netlify.app/" target="_blank"> SortingVisualiser </a>
                       </p>
                       <div className={styles.projButton}>
                       <Button size="large" variant="outlined" 
