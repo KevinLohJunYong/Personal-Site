@@ -8,35 +8,39 @@ export default function resume() {
         <div style={{backgroundColor:"white"}}>
           <div style={{marginLeft:"4%"}}>
             <div style={{display:"flex",flexDirection:"row"}}>
-          <h3 style={{marginTop:"1%"}}>
+          <h2 style={{marginTop:"0.5%"}}>
              Kevin Loh Jun Yong
-           </h3>
-           <div style={{marginLeft:"5%",marginTop:"1%"}}>
-             <h3> 
+             <div style={{marginTop:"1%"}}>
+               <h4> Coding enthusiast | Problem-solving </h4> 
+               <h4 style={{marginTop:"-3%"}}> enthusiast | Striving to make a difference </h4>
+             </div>
+           </h2>
+           <div style={{marginLeft:"5%",marginTop:"0.5%"}}>
+             <h4> 
                Mobile Number/WhatsApp: +65 8700 2086
-             </h3>
-             <h3>
+             </h4>
+             <h4>
              Email: <a href="mailto:kevinljy@comp.nus.edu" target="_blank">  kevinljy@comp.nus.edu </a>
-             </h3>
+             </h4>
              </div>
            </div>
            <div>
            <div>
            </div>
            </div>
-           <h3 style={{color:"#00bfff",marginTop:"-1%"}}>  
+           <h3 style={{color:"#00bfff",marginTop:"-2.5%"}}>  
              Education
            </h3>
-           <h3 style={{marginTop:"-0.5%"}}> National University of Singapore - AUG 2019 - MAY 2023 </h3>
+           <h3 style={{marginTop:"-1%"}}> National University of Singapore - AUG 2019 - MAY 2023 </h3>
            <ul>
              <li> <h4 style={{marginTop:"-1%"}}>  Bachelor of Computing in Computer Science (Honours) </h4> </li>
              <li> <h4 style={{marginTop:"-1%"}}>  3rd year undergraduate, specialising in Software Engineering and Algorithms </h4></li>
-             <li> <h4 style={{marginTop:"-1%"}}>  Admitted with 3H2 distinctions at the Singapore-Cambridge GCE A-Level Examination </h4> </li>
+             <li> <h4 style={{marginTop:"-1%"}}>  Admitted with 3 H2 distinctions at the Singapore-Cambridge GCE A-Level Examination </h4> </li>
            </ul>
            <h3 style={{color:"#00bfff",marginTop:"-1%"}}> 
              Side Projects
            </h3>
-           <h3 style={{marginTop:"-0.5%"}}> PathFinderVisualiser App (Link: <a href="https://meetthepathfinderalgorithms.netlify.app/" target="_blank"> 
+           <h3 style={{marginTop:"-1%"}}> PathFinderVisualiser App (Link: <a href="https://meetthepathfinderalgorithms.netlify.app/" target="_blank"> 
                      Path Finder Visualiser App </a>) </h3>
            <ul>
               <li> 
@@ -71,12 +75,12 @@ export default function resume() {
              <li> <h4 style={{marginTop:"-1%"}}>  Proficient in BootStrap, Java, Javascript, Python, ReactJS, Django, Git, Linux and Vim. Familiar with C++, PostgreSQL, Ruby On Rails and MATLAB </h4> </li>
            </ul>
            <h3 style={{color:"#00bfff",marginTop:"-1%"}}>  
-              Hobbies
+              Interests
            </h3>
            <ul>
              <li> <h4 style={{marginTop:"-1%"}}> Enjoys doing software engineering projects. 
-               There are other projects I did, which includes a snake game and a QA website </h4> </li>
-               <li> <h4 style={{marginTop:"-1%"}}>  Enjoys solving algorithm problems </h4></li>
+               There are other projects I did, which includes a snake game and a Q&A website </h4> </li>
+               <li> <h4 style={{marginTop:"-1%"}}> Volunteered in Jamie Hilario Integrated School in Manila, Philippines in a school trip </h4></li>
              <li> <h4 style={{marginTop:"-1%"}}> Represented NUS Computing in Inter-Faculty Games in table tennis </h4></li>
            </ul>
         </div>
