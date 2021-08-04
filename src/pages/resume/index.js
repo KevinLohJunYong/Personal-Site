@@ -79,7 +79,7 @@ export default function resume() {
            </h3>
            <ul>
              <li> <h4 style={{marginTop:"-1%"}}> Enjoys doing software engineering projects. 
-               There are other projects I did, which includes a snake game and a Q&A website </h4> </li>
+               There are other projects I did, which include a snake game and a Q&A website </h4> </li>
                <li> <h4 style={{marginTop:"-1%"}}> Volunteered in Jamie Hilario Integrated School in Manila, Philippines in a school trip </h4></li>
              <li> <h4 style={{marginTop:"-1%"}}> Represented NUS Computing in Inter-Faculty Games in table tennis </h4></li>
            </ul>
