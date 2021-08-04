@@ -28,7 +28,7 @@ export default function resume() {
            <div>
            </div>
            </div>
-           <h3 style={{color:"#00bfff",marginTop:"-2.5%"}}>  
+           <h3 style={{color:"#00bfff",marginTop:"-1%"}}>  
              Education
            </h3>
            <h3 style={{marginTop:"-1%"}}> National University of Singapore - AUG 2019 - MAY 2023 </h3>
